@@ -5,7 +5,7 @@
   export let column;
   export let handleOnDrag;
 
-  let textColor = column.status != "Done" ? "text-white" : "text-black";
+  const textColor = column.status != "Done" ? "text-white" : "text-black";
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->

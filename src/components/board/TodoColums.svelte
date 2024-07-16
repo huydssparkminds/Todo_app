@@ -69,8 +69,7 @@
 
 <style>
   .listItem {
-    transition: all 0.3s;
-    transition: background-color 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   .cardEmpty {
     border: 2px dashed grey;
