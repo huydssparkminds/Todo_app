@@ -6,13 +6,13 @@ let todos: ColumnTask[] = [
   {
     status: "To Do",
     icon: "🗒️",
-    color: "#59B4D1",
+    color: "todo",
     items: [{ id: uuidv4(), title: "Learn Svelte", tag: "Label" }],
   },
   {
     status: "In Progress",
     icon: "💻",
-    color: "#D0935A",
+    color: "inprogress",
     items: [
       { id: uuidv4(), title: "Learn React", tag: "Always" },
       { id: uuidv4(), title: "UI/UX", tag: "Label" },
@@ -21,13 +21,13 @@ let todos: ColumnTask[] = [
   {
     status: "Review",
     icon: "🖍",
-    color: "#945AD1",
+    color: "review",
     items: [{ id: uuidv4(), title: "Learn Sping", tag: "Release" }],
   },
   {
     status: "Done",
     icon: "🚀",
-    color: "#59D090",
+    color: "done",
     items: [{ id: uuidv4(), title: "Components", tag: "UI" }],
   },
 ];

@@ -5,3 +5,16 @@
 body {
     background-color: #E1E8ED;
 }
+
+.todo{
+    background-color: #59B4D1;
+  }
+  .inprogress{
+    background-color: #D0935A;
+  }
+  .review{
+    background-color: #945AD1;
+  }
+  .done{
+    background-color: #59D090;
+  }

@@ -18,7 +18,7 @@
       src="https://s3-alpha-sig.figma.com/img/6a7f/debf/89a7bb2a7edfbef052ef27f61bcad084?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E6CbE18jm6Ivsv3ydL0ygtbTdXwCDQGwrwGtyqReTxuSaQS~WnRMBDk7n-ulI1NBCmDvJYduxfN1W6xDyhFwn5aYAAv2UMP8F64WzajxMjfkvwng9PPGYgNwksRLRogXP8UAiuLELjRHF~WWDODZKcQSyqCdD~IPS~pZ6fw2x1i~WTwcR6JbFCPlyXnNL~g6YTe58~2qEQViKQcrXEl8bHhWsc-nBZ86xm5vOphJo1A9PLWbxLET5tvfKNnQ9osCejwp6pKT1pdCPDoJZYxNa3-gGHUQa2mJH7NBahwYZ8rybvlfOYk5ikl2QRAJlPl4QKkaC7cZagJIbc8ebMW6Hw__"
       alt="ava"
     />
-    <p class="tag bg-[{column.color}] {textColor}">{item.tag}</p>
+    <p class="tag {column.color} {textColor}">{item.tag}</p>
   </div>
 </div>
 

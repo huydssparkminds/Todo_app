@@ -36,10 +36,10 @@
   };
 </script>
 
-<div class="grid grid-cols-1 md:grid-cols-4 gap-7">
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7">
   {#each todos as column, i (i)}
     <div
-      class={`bg-[${column.color}] rounded-[4px] flex flex-col h-min ${draggingItem === column.status ? "bg-slate-600" : ""}`}
+      class={`${column.color} rounded-[4px] flex flex-col h-min ${draggingItem === column.status ? "bg-slate-600" : ""}`}
     >
       <div class="h-[5px] bg-black rounded-t-[4px] w-full opacity-10"></div>
       <div
