@@ -39,13 +39,13 @@
 <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7">
   {#each todos as column, i (i)}
     <div
-      class={`${column.color} rounded-[4px] flex flex-col h-min ${draggingItem === column.status ? "bg-slate-600" : ""}`}
+      class={`${column.color} rounded-[4px] flex flex-col h-min`}
     >
       <div class="h-[5px] bg-black rounded-t-[4px] w-full opacity-10"></div>
       <div
         role="region"
         aria-label="Droppable area for {column.status}"
-        class="p-[8px] flex-1 listItem"
+        class="p-[8px] flex-1 listItem {draggingItem === column.status ? "bg-slate-600" : ""}"
         on:dragenter={() => (draggingItem = column.status)}
         on:dragleave={() => (draggingItem = null)}
         on:dragover={handleDragOver}

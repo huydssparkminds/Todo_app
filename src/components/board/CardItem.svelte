@@ -9,7 +9,7 @@
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
-<div draggable="true" on:dragstart={(e) => handleOnDrag(e, item)} class="card ">
+<div draggable="true" on:dragstart={(e) => handleOnDrag(e, item)} class="card">
   <span class="font-medium text-sm">
     {item.title}
   </span>
@@ -27,12 +27,13 @@
     padding: 15px 10px;
     border-radius: 4px;
     background-color: white;
+    opacity: 1;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
     transition: transform .2s;
     cursor:grabbing;
   }
   .card:active{
-    transform: scale(1.1);
+    opacity: 0.5;
   }
  
   img {
